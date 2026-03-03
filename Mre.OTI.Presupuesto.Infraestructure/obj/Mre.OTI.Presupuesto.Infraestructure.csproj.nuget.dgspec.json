@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj": {}
+  },
+  "projects": {
+    "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\Mre.OTI.Presupuesto.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\Mre.OTI.Presupuesto.Application.csproj",
+        "projectName": "Mre.OTI.Passport.Application",
+        "projectPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\Mre.OTI.Presupuesto.Application.csproj",
+        "packagesPath": "C:\\Users\\kike\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\Mre.OTI.Presupuesto.Domain.csproj": {
+                "projectPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\Mre.OTI.Presupuesto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.DotNet.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "itextsharp.netstandard": {
+              "target": "Package",
+              "version": "[5.5.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\Mre.OTI.Presupuesto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\Mre.OTI.Presupuesto.Domain.csproj",
+        "projectName": "Mre.OTI.Presupuesto.Domain",
+        "projectPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\Mre.OTI.Presupuesto.Domain.csproj",
+        "packagesPath": "C:\\Users\\kike\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj",
+        "projectName": "Mre.OTI.Presupuesto.Infraestructure",
+        "projectPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\kike\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\Mre.OTI.Presupuesto.Application.csproj": {
+                "projectPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Application\\Mre.OTI.Presupuesto.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

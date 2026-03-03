@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mre.OTI.Passport.Api.props" />
+</Project>

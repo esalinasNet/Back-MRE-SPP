@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>04feecfa-f53e-4f4b-98fd-dc0007ece972</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\BolsaHorasController.cs" />
+    <Compile Remove="Controllers\Cargo.cs" />
+    <Compile Remove="Controllers\CargoEstructuralController.cs" />
+    <Compile Remove="Controllers\CargoEstructuralDetalleController.cs" />
+    <Compile Remove="Controllers\CargosController.cs" />
+    <Compile Remove="Controllers\ClasificacionPersonalController.cs" />
+    <Compile Remove="Controllers\EstructuraOrganizacionalController.cs" />
+    <Compile Remove="Controllers\InformeController.cs" />
+    <Compile Remove="Controllers\LogSeguimientoController.cs" />
+    <Compile Remove="Controllers\OrganismoController.cs" />
+    <Compile Remove="Controllers\ProyectoCargoClasificacionController.cs" />
+    <Compile Remove="Controllers\ProyectoCargoFuncionController.cs" />
+    <Compile Remove="Controllers\ProyectoCargoRequisitoController.cs" />
+    <Compile Remove="Controllers\ProyectoEoController.cs" />
+    <Compile Remove="Controllers\ProyectoEoDetalleController.cs" />
+    <Compile Remove="Controllers\ProyectoEoSeguimientoController.cs" />
+    <Compile Remove="Controllers\ProyectoMccController.cs" />
+    <Compile Remove="Controllers\ProyectoMccDetalleController.cs" />
+    <Compile Remove="Controllers\ProyectoMccSeguimientoController.cs" />
+    <Compile Remove="Controllers\TipoClasificacionController.cs" />
+    <Compile Remove="Controllers\TipoClasificacionPaisController.cs" />
+    <Compile Remove="Controllers\TipoClasificacionSeguimientoController.cs" />
+    <Compile Remove="Controllers\UnidadOrganicaController.cs" />
+    <Compile Remove="Controllers\UnidadOrganizacionalCargoController.cs" />
+    <Compile Remove="Controllers\UsuarioRolGrupoController.cs" />
+    <Compile Remove="Filters\HttpGlobalExceptionFilter.cs" />
+    <Compile Remove="Filters\ModelStateFilter.cs" />
+    <Compile Remove="Filters\ValidationFailedResult.cs" />
+    <Compile Remove="IoC\RabbitExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\PlazaVacanteController.cs~RF173dc78.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <!--<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.30" />-->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Mre.OTI.Passport.Application\Mre.OTI.Passport.Application.csproj" />
+    <ProjectReference Include="..\Mre.OTI.Passport.Infraestructure\Mre.OTI.Passport.Infraestructure.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="Mre.Util.Encriptador.Net">
+      <HintPath>..\..\Mre.Util.Encriptador.Net\bin\Debug\netstandard2.1\Mre.Util.Encriptador.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+</Project>

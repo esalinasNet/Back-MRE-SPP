@@ -1,0 +1,56 @@
+﻿using MediatR;
+using Mre.OTI.Presupuesto.Application.Exceptions;
+using Mre.OTI.Presupuesto.Application.Mapper;
+using Mre.OTI.Presupuesto.Application.Repositories;
+using Mre.OTI.Presupuesto.Application.Responses.Command;
+using Mre.OTI.Presupuesto.Application.Util;
+using Mre.OTI.Passport.Util.Encriptador;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Mre.OTI.Presupuesto.Application.Features.Encargos.Command
+{
+    public class EliminarEncargosCommand : IRequestHandler<EliminarEncargosViewModel, CommandResponseViewModel>
+    {
+        private readonly IEncargosRepository _IEncargosRepository;
+        private readonly IUsuarioRolRepository _IUsuarioRolRepository;
+
+        public EliminarEncargosCommand(
+            IUsuarioRolRepository IUsuarioRolRepository,
+            IEncargosRepository IEncargosRepository)
+        {
+            _IEncargosRepository = IEncargosRepository;
+            _IUsuarioRolRepository = IUsuarioRolRepository;
+        }
+
+        public async Task<CommandResponseViewModel> Handle(EliminarEncargosViewModel request, CancellationToken cancellationToken)
+        {
+            try
+            {
+                await ValidateGlobalBase.Autorizacion(request.usuarioModificacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> {
+                    VariablesGlobales.TablaRol.ANALISTA_OGTH
+                });
+
+                if (request.idProgramacionEncargos == 0) throw new MreException("Debe especificar el ID de Encargos");
+
+                var entity = EncargosMap.MaptoEntity(request);
+                var idUsuarioModificacion = EncryptionPassportHandler.Decrypt(request.usuarioModificacion, Constantes.SISTEMA.KEY_ENCRYPT);
+                entity.usuarioModificacion = idUsuarioModificacion;
+
+                var result = await _IEncargosRepository.Eliminar(entity);
+
+                return new CommandResponseViewModel
+                {
+                    message = result > 0 ? "Encargos eliminado correctamente" : Constantes.MensajesError.EX_ERROR_GENERICO,
+                    result = result
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+    }
+}

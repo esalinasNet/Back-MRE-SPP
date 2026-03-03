@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.application\\util\\variablesglobales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\util\\variablesglobales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.application\\features\\catalogoitem\\queries\\obtenertipodocumentoidentidadquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\catalogoitem\\queries\\obtenertipodocumentoidentidadquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.api\\ioc\\infrastructureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|solutionrelative:mre.oti.passport.api\\ioc\\infrastructureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|solutionrelative:mre.oti.passport.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.application\\util\\validateglobalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\util\\validateglobalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\services\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\services\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\services\\subirdocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\services\\subirdocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\services\\passportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\services\\passportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\services\\accionesgrabadasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\services\\accionesgrabadasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|d:\\otros proyectos\\mre\\2024\\plantilla\\proveedor_servicio v2\\api net.6 seg\\mre.oti.passport.infraestructure\\repositories\\catalogoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\repositories\\catalogoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObtenerTipoDocumentoIdentidadQuery.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Features\\CatalogoItem\\Queries\\ObtenerTipoDocumentoIdentidadQuery.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\CatalogoItem\\Queries\\ObtenerTipoDocumentoIdentidadQuery.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Features\\CatalogoItem\\Queries\\ObtenerTipoDocumentoIdentidadQuery.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\CatalogoItem\\Queries\\ObtenerTipoDocumentoIdentidadQuery.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwB4AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:37:21.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfrastructureExtensions.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Api\\IoC\\InfrastructureExtensions.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Api\\IoC\\InfrastructureExtensions.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Api\\IoC\\InfrastructureExtensions.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Api\\IoC\\InfrastructureExtensions.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:37:13.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Api\\Startup.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Api\\Startup.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Api\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:37:00.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VariablesGlobales.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Util\\VariablesGlobales.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Util\\VariablesGlobales.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Util\\VariablesGlobales.cs*",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Util\\VariablesGlobales.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:35:02.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidateGlobalBase.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Util\\ValidateGlobalBase.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Util\\ValidateGlobalBase.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Application\\Util\\ValidateGlobalBase.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Util\\ValidateGlobalBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:34:54.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubirDocumentoService.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\SubirDocumentoService.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Services\\SubirDocumentoService.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\SubirDocumentoService.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Services\\SubirDocumentoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:33:53.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Services\\TokenService.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:33:50.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PassportService.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\PassportService.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Services\\PassportService.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\PassportService.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Services\\PassportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:33:48.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiKeyService.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\ApiKeyService.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Services\\ApiKeyService.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\ApiKeyService.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Services\\ApiKeyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:33:47.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccionesGrabadasService.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\AccionesGrabadasService.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Services\\AccionesGrabadasService.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Services\\AccionesGrabadasService.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Services\\AccionesGrabadasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:33:46.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:24:50.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\UnitOfWork.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\UnitOfWork.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:24:23.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\DBConnection.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\DBConnection.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:24:22.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:24:42.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CatalogoItemRepository.cs",
+              "DocumentMoniker": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\CatalogoItemRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Repositories\\CatalogoItemRepository.cs",
+              "ToolTip": "D:\\OTROS PROYECTOS\\MRE\\2024\\PLANTILLA\\PROVEEDOR_SERVICIO v2\\API NET.6 SEG\\Mre.OTI.Passport.Infraestructure\\Repositories\\CatalogoItemRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Repositories\\CatalogoItemRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:24:28.305Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

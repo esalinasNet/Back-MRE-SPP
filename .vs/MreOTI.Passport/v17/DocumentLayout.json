@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\catalogo\\command\\actualizarcatalogocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\catalogo\\command\\actualizarcatalogocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\catalogo\\validators\\actualizarcatalogovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\catalogo\\validators\\actualizarcatalogovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\catalogo\\validators\\obtenercatalogopaginadovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\catalogo\\validators\\obtenercatalogopaginadovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\catalogo\\validators\\obtenercatalogovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\catalogo\\validators\\obtenercatalogovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\especificagasto\\queries\\obtenerlistadoespecificagastoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\especificagasto\\queries\\obtenerlistadoespecificagastoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.api\\controllers\\especificagastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Passport.Api\\Mre.OTI.Passport.Api.csproj|solutionrelative:mre.oti.passport.api\\controllers\\especificagastocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\mapper\\especificagastomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\mapper\\especificagastomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.infraestructure\\repositories\\especificagastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Passport.Infraestructure\\Mre.OTI.Passport.Infraestructure.csproj|solutionrelative:mre.oti.passport.infraestructure\\repositories\\especificagastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\especificagasto\\command\\actualizarespecificagastocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\especificagasto\\command\\actualizarespecificagastocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\especificagasto\\command\\actualizarespecificagastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\especificagasto\\command\\actualizarespecificagastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\especificagasto\\command\\eliminarespecificagastocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\especificagasto\\command\\eliminarespecificagastocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\repositories\\iespecificagastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\repositories\\iespecificagastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|e:\\proyectos\\efren\\api net.6 seg - copia\\mre.oti.passport.application\\features\\especificagasto\\command\\eliminarespecificagastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490E5761-9EFF-4013-8E54-77EC2F827192}|Mre.OTI.Passport.Application\\Mre.OTI.Passport.Application.csproj|solutionrelative:mre.oti.passport.application\\features\\especificagasto\\command\\eliminarespecificagastoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActualizarCatalogoCommand.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Command\\ActualizarCatalogoCommand.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Command\\ActualizarCatalogoCommand.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Command\\ActualizarCatalogoCommand.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Command\\ActualizarCatalogoCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:01:23.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObtenerCatalogoPaginadoValidator.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoPaginadoValidator.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoPaginadoValidator.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoPaginadoValidator.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoPaginadoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:00:14.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObtenerCatalogoValidator.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoValidator.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoValidator.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoValidator.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ObtenerCatalogoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:00:10.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActualizarCatalogoValidator.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ActualizarCatalogoValidator.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ActualizarCatalogoValidator.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ActualizarCatalogoValidator.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\Catalogo\\Validators\\ActualizarCatalogoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:59:24.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObtenerListadoEspecificaGastoQuery.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Queries\\ObtenerListadoEspecificaGastoQuery.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Queries\\ObtenerListadoEspecificaGastoQuery.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Queries\\ObtenerListadoEspecificaGastoQuery.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Queries\\ObtenerListadoEspecificaGastoQuery.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAlwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T15:10:50.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EspecificaGastoMap.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Mapper\\EspecificaGastoMap.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Mapper\\EspecificaGastoMap.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Mapper\\EspecificaGastoMap.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Mapper\\EspecificaGastoMap.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:24:35.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EliminarEspecificaGastoViewModel.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoViewModel.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoViewModel.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoViewModel.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T23:22:14.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActualizarEspecificaGastoCommand.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoCommand.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoCommand.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoCommand.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoCommand.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T22:26:05.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EspecificaGastoRepository.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Infraestructure\\Repositories\\EspecificaGastoRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Infraestructure\\Repositories\\EspecificaGastoRepository.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Infraestructure\\Repositories\\EspecificaGastoRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Infraestructure\\Repositories\\EspecificaGastoRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwFAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:30:40.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActualizarEspecificaGastoViewModel.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoViewModel.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoViewModel.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoViewModel.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\ActualizarEspecificaGastoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T23:23:56.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EliminarEspecificaGastoCommand.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoCommand.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoCommand.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoCommand.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Features\\EspecificaGasto\\Command\\EliminarEspecificaGastoCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T23:22:52.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EspecificaGastoController.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Api\\Controllers\\EspecificaGastoController.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Api\\Controllers\\EspecificaGastoController.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Api\\Controllers\\EspecificaGastoController.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Api\\Controllers\\EspecificaGastoController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAlwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T07:38:28.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEspecificaGastoRepository.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Repositories\\IEspecificaGastoRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Passport.Application\\Repositories\\IEspecificaGastoRepository.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\API NET.6 SEG - copia\\Mre.OTI.Passport.Application\\Repositories\\IEspecificaGastoRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Passport.Application\\Repositories\\IEspecificaGastoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:15:38.108Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

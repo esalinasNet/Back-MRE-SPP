@@ -1,0 +1,10 @@
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\bin\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.deps.json
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\bin\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.dll
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\bin\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.pdb
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.csproj.AssemblyReference.cache
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.AssemblyInfoInputs.cache
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.AssemblyInfo.cs
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.csproj.CoreCompileInputs.cache
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.dll
+D:\OTROS PROYECTOS\MRE\2023\FAG\ESCALAFON\FUENTES\sgap-backend-orh\Mre.ProcesoPersonal.Domain\obj\Release\netstandard2.1\Mre.ProcesoPersonal.Domain.pdb

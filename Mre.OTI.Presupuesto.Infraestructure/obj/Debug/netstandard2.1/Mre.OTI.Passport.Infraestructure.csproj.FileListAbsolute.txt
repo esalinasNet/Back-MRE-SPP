@@ -1,0 +1,112 @@
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\PROVEEDOR_SERVICIO v2\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG\API NET.6 SEG\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG - copia - copia\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\bin\Debug\netstandard2.1\Mre.OTI.Passport.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI..F7CD102E.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Passport.Infraestructure\obj\Debug\netstandard2.1\Mre.OTI.Passport.Infraestructure.pdb

@@ -1,0 +1,38 @@
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.deps.json
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfo.cs
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.sourcelink.json
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.deps.json
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.AssemblyInfo.cs
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.sourcelink.json
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Domain\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb

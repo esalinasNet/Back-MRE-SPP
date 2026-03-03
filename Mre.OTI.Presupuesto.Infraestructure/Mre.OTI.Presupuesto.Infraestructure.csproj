@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories\AutenticarRepository.cs" />
+    <Compile Remove="Repositories\CargoClasificacionPersonalRepository.cs" />
+    <Compile Remove="Repositories\CargoEstructuralDetalleRepository.cs" />
+    <Compile Remove="Repositories\CargoEstructuralRepository.cs" />
+    <Compile Remove="Repositories\CargoFuncionRepository.cs" />
+    <Compile Remove="Repositories\CargoRepository.cs" />
+    <Compile Remove="Repositories\CargoRequisitoRepository.cs" />
+    <Compile Remove="Repositories\ClasificacionPersonalRepository.cs" />
+    <Compile Remove="Repositories\EstructuraOrganizacionalRepository.cs" />
+    <Compile Remove="Repositories\LogSeguimientoRepository.cs" />
+    <Compile Remove="Repositories\OrganismoRepository.cs" />
+    <Compile Remove="Repositories\ProyectoCargoFuncionRepository.cs" />
+    <Compile Remove="Repositories\ProyectoCargoRequisitoRepository.cs" />
+    <Compile Remove="Repositories\ProyectoClasificacionPersonalRepository.cs" />
+    <Compile Remove="Repositories\ProyectoClasificadorCargoRepository.cs" />
+    <Compile Remove="Repositories\ProyectoEoDetalleRepository.cs" />
+    <Compile Remove="Repositories\ProyectoEoRepository.cs" />
+    <Compile Remove="Repositories\ProyectoEoSeguimientoRepository.cs" />
+    <Compile Remove="Repositories\ProyectoMccDetalleRepository.cs" />
+    <Compile Remove="Repositories\ProyectoMccRepository.cs" />
+    <Compile Remove="Repositories\ProyectoMccSeguimientoRepository.cs" />
+    <Compile Remove="Repositories\TipoClasificacionPaisRepository.cs" />
+    <Compile Remove="Repositories\TipoClasificacionRepository.cs" />
+    <Compile Remove="Repositories\TipoClasificacionSeguimientoRepository.cs" />
+    <Compile Remove="Repositories\UnidadOrganicaRepository.cs" />
+    <Compile Remove="Repositories\UnidadOrganizacionalCargoRepository.cs" />
+    <Compile Remove="Repositories\UnidadRepository.cs" />
+    <Compile Remove="Repositories\UsuarioRolGrupoRepository.cs" />
+    <Compile Remove="Services\ApiKeyService.cs" />
+    <Compile Remove="Services\AutenticarLDAPService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Repositories\CentroTrabajoRepository.cs~RFccf9285b.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mre.OTI.Presupuesto.Application\Mre.OTI.Presupuesto.Application.csproj" />
+  </ItemGroup>
+</Project>

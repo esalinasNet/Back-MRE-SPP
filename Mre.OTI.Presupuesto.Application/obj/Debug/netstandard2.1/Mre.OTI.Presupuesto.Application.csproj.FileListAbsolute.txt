@@ -1,0 +1,58 @@
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI..6B7C69C1.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - P\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.deps.json
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfo.cs
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI..6B7C69C1.Up2Date
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\API NET.6 SEG - P - IN\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.deps.json
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfo.cs
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.sourcelink.json
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI..6B7C69C1.Up2Date
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\Nuevo\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.deps.json
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Passport.Util.Encriptador.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\bin\Debug\netstandard2.1\Mre.OTI.Presupuesto.Domain.pdb
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.AssemblyReference.cache
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfoInputs.cache
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.AssemblyInfo.cs
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Presupuesto.Application.sourcelink.json
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI..6B7C69C1.Up2Date
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.dll
+E:\Proyectos\Efren\Nuevo\05-12-25\OTI-BCAKEND-v1\Mre.OTI.Presupuesto.Application\obj\Debug\netstandard2.1\Mre.OTI.Passport.Application.pdb

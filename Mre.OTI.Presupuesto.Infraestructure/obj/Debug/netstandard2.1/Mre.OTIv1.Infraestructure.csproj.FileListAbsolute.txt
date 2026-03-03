@@ -1,0 +1,17 @@
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.csproj.AssemblyReference.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.AssemblyInfoInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.AssemblyInfo.cs
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.csproj.CoreCompileInputs.cache
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.deps.json
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Application.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Domain.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.Util.Encriptador.Net.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Application.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.OTIv1.Domain.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\bin\Debug\netstandard2.1\Mre.Util.Encriptador.Net.pdb
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.csproj.CopyComplete
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.dll
+D:\OTROS PROYECTOS\MRE\2024\PLANTILLA\API NET.6\Mre.OTIv1.Infraestructure\obj\Debug\netstandard2.1\Mre.OTIv1.Infraestructure.pdb

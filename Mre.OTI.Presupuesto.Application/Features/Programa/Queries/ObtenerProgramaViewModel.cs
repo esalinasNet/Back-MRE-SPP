@@ -1,0 +1,15 @@
+﻿using MediatR;
+using Mre.OTI.Presupuesto.Application.Responses.Funcion;
+using Mre.OTI.Presupuesto.Application.Responses.Programa;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Mre.OTI.Presupuesto.Application.Features.Programa.Queries
+{
+    public class ObtenerProgramaViewModel : IRequest<ObtenerProgramaResponseViewModel>
+    {
+        public string usuarioConsulta { get; set; }
+        public int idPrograma { get; set; }
+    }
+}

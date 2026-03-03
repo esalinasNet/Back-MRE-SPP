@@ -1,0 +1,889 @@
+[
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "Agregar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Catalogo.Command.AgregarCatalogoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "Actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Catalogo.Command.ActualizarCatalogoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "Inactivar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Catalogo.Command.EliminarCatalogoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "ObtenerListaCatalogoPost",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo/lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCatalogo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCatalogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codigoCatalogo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "ObtenerCatalogoPorID",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idCatalogo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoController",
+    "Method": "ObtenerCatalogoPaginado",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogo/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.CatalogoItem.Command.ActualizarCatalogoItemViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "eliminar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.CatalogoItem.Command.EliminarCatalogoItemViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "guardar",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.CatalogoItem.Command.AgregarCatalogoItemViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "ObtenerCatalogoItemsActivosXIdCatalogoItem",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCatalogoItem",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "ObtenerAnios",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/obteneranios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "ObtenerCatologoEstadoCivil",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/obtenerestadocivil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "ObtenerCatalogoItemPaginado",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCatalogo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "draw",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.CatalogoItemController",
+    "Method": "ObtenerTipoDocumento",
+    "RelativePath": "v1/rree/oti/passport/seg/catalogoitem/obtenertipodocumento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.HealtyController",
+    "Method": "Helthy",
+    "RelativePath": "v1/rree/oti/passport/seg/helthy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.AutenticarController",
+    "Method": "autenticar",
+    "RelativePath": "v1/rree/oti/passport/seg/passport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Autenticacion.Command.AutenticarUsuarioViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.AutenticarController",
+    "Method": "ObtenerAutorizacionInfo",
+    "RelativePath": "v1/rree/oti/passport/seg/passport/autorizacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Seguridad.Queries.ObtenerAutorizacionInfoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.AutenticarController",
+    "Method": "logoutLog",
+    "RelativePath": "v1/rree/oti/passport/seg/passport/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.LogSession.Command.AgregarLogSessionViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.AutenticarController",
+    "Method": "logoutLogExterior",
+    "RelativePath": "v1/rree/oti/passport/seg/passport/logoutExterior",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.LogSession.Command.AgregarLogSessionExteriorViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.AutenticarController",
+    "Method": "verificarSession",
+    "RelativePath": "v1/rree/oti/passport/seg/passport/validateToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "Guardar",
+    "RelativePath": "v1/rree/oti/passport/seg/persona",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Persona.Command.AgregarPersonaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "Actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/persona",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Persona.Command.ActualizarPersonaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "Eliminar",
+    "RelativePath": "v1/rree/oti/passport/seg/persona/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Persona.Command.EliminarPersonaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "ObtenerListadoPersona",
+    "RelativePath": "v1/rree/oti/passport/seg/persona/listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "ObtenerPersona",
+    "RelativePath": "v1/rree/oti/passport/seg/persona/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPersona",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.PersonaController",
+    "Method": "ObtenerPersonaPaginado",
+    "RelativePath": "v1/rree/oti/passport/seg/persona/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "apellidoPaterno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPaisNacimiento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "draw",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "Guardar",
+    "RelativePath": "v1/rree/oti/passport/seg/rol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Rol.Command.AgregarRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "Actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/rol",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Rol.Command.ActualizarRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "Eliminar",
+    "RelativePath": "v1/rree/oti/passport/seg/rol/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Rol.Command.EliminarRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "ObtenerListadoRol",
+    "RelativePath": "v1/rree/oti/passport/seg/rol/listadorol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "ObtenerRol",
+    "RelativePath": "v1/rree/oti/passport/seg/rol/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.RolController",
+    "Method": "ObtenerRolPaginado",
+    "RelativePath": "v1/rree/oti/passport/seg/rol/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "draw",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "Agregar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Usuario.Command.AgregarUsuarioViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "Actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Usuario.Command.ActualizarUsuarioViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "Inactivar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.Usuario.Command.EliminarUsuarioViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "ObtenerListadoUsuario",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario/listadousuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "ObtenerUsuarioPorID",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioController",
+    "Method": "ObtenerObjetivoSectorialPost",
+    "RelativePath": "v1/rree/oti/passport/seg/usuario/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "apellidoPaterno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idTipoDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "draw",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioRolController",
+    "Method": "Guardar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuariorol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.UsuarioRol.Command.AgregarUsuarioRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioRolController",
+    "Method": "Actualizar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuariorol",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.UsuarioRol.Command.ActualizarUsuarioRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioRolController",
+    "Method": "Eliminar",
+    "RelativePath": "v1/rree/oti/passport/seg/usuariorol/eliminar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mre.OTI.Passport.Application.Features.UsuarioRol.Command.EliminarUsuarioRolViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioRolController",
+    "Method": "ObtenerUsuarioRol",
+    "RelativePath": "v1/rree/oti/passport/seg/usuariorol/obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idUsuarioRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mre.OTI.Passport.Api.Controllers.UsuarioRolController",
+    "Method": "ObtenerUsuarioRolPaginado",
+    "RelativePath": "v1/rree/oti/passport/seg/usuariorol/obtenerpaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioConsulta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "draw",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paginaActual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanioPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

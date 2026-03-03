@@ -1,0 +1,60 @@
+﻿using AutoMapper;
+using MediatR;
+using Mre.OTI.Passport.Util.Encriptador;
+using Mre.OTI.Presupuesto.Application.Exceptions;
+using Mre.OTI.Presupuesto.Application.Features.ProgramacionTareas.Command;
+using Mre.OTI.Presupuesto.Application.Mapper;
+using Mre.OTI.Presupuesto.Application.Repositories;
+using Mre.OTI.Presupuesto.Application.Responses.Command;
+using Mre.OTI.Presupuesto.Application.Util;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Mre.OTI.Presupuesto.Application.Features.ProgramacionTareas.Command
+{
+    public class ActualizarProgramacionTareasCommand : IRequestHandler<ActualizarProgramacionTareasViewModel, CommandResponseViewModel>
+    {
+        private readonly IProgramacionTareasRepository _IProgramacionTareasRepository;
+        private readonly IMapper _mapper;
+        private readonly IUsuarioRolRepository _IUsuarioRolRepository;
+
+        public ActualizarProgramacionTareasCommand(IUsuarioRolRepository IUsuarioRolRepository, IProgramacionTareasRepository IProgramacionTareasRepository, IMapper mapper)
+        {
+            _IProgramacionTareasRepository = IProgramacionTareasRepository;
+            _mapper = mapper;
+            _IUsuarioRolRepository = IUsuarioRolRepository;
+        }
+
+        public async Task<CommandResponseViewModel> Handle(ActualizarProgramacionTareasViewModel request, CancellationToken cancellationToken)
+        {
+            try
+            {
+                await ValidateGlobalBase.Autorizacion(request.usuarioModificacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> { VariablesGlobales.TablaRol.ANALISTA_OGTH });
+
+                //hay que validar como esta en PersonaRepository.
+                if (string.IsNullOrEmpty(request.descripcionTareas)) throw new MreException(Constantes.MensajesError.EX_PROGTAREAS_DESCRIPCION_REQUIRED);
+
+                var entity = ProgramacionTareasMap.MaptoEntity(request);
+
+                var idUsuarioModificacion = EncryptionPassportHandler.Decrypt(request.usuarioModificacion, Constantes.SISTEMA.KEY_ENCRYPT);
+                entity.usuarioModificacion = idUsuarioModificacion;
+
+                var result = await _IProgramacionTareasRepository.Actualizar(entity);
+
+                return new CommandResponseViewModel
+                {
+                    message = result > 0 ? Constantes.MensajesOK.M01_PROGTAREAS_UPDATE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
+                    result = result
+                };
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+    }
+}

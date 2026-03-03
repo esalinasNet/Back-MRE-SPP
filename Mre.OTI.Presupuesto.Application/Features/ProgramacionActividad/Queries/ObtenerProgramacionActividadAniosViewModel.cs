@@ -1,0 +1,14 @@
+﻿using MediatR;
+using Mre.OTI.Presupuesto.Application.Responses.ProgramacionActividad;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Mre.OTI.Presupuesto.Application.Features.ProgramacionActividad.Queries
+{
+    public class ObtenerProgramacionActividadAniosViewModel : IRequest<ObtenerProgramacionActividadAniosResponseViewModel>
+    {
+        public string usuarioConsulta { get; set; }
+        public int idAnio { get; set; }
+    }
+}

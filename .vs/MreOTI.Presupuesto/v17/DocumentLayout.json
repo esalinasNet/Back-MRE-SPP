@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj|e:\\proyectos\\efren\\nuevo\\oti-bcakend-v1\\mre.oti.presupuesto.infraestructure\\repositories\\programacionactividadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A23914-8381-4E54-9A78-123396337BCF}|Mre.OTI.Presupuesto.Infraestructure\\Mre.OTI.Presupuesto.Infraestructure.csproj|solutionrelative:mre.oti.presupuesto.infraestructure\\repositories\\programacionactividadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Presupuesto.Api\\Mre.OTI.Presupuesto.Api.csproj|e:\\proyectos\\efren\\nuevo\\oti-bcakend-v1\\mre.oti.presupuesto.api\\controllers\\programacionactividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D8F883-E40A-4FB9-A95F-A2D133C3D926}|Mre.OTI.Presupuesto.Api\\Mre.OTI.Presupuesto.Api.csproj|solutionrelative:mre.oti.presupuesto.api\\controllers\\programacionactividadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 858,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramacionActividadRepository.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Repositories\\ProgramacionActividadRepository.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Presupuesto.Infraestructure\\Repositories\\ProgramacionActividadRepository.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Infraestructure\\Repositories\\ProgramacionActividadRepository.cs",
+              "RelativeToolTip": "Mre.OTI.Presupuesto.Infraestructure\\Repositories\\ProgramacionActividadRepository.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T15:51:18.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgramacionActividadController.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Api\\Controllers\\ProgramacionActividadController.cs",
+              "RelativeDocumentMoniker": "Mre.OTI.Presupuesto.Api\\Controllers\\ProgramacionActividadController.cs",
+              "ToolTip": "E:\\Proyectos\\Efren\\Nuevo\\OTI-BCAKEND-v1\\Mre.OTI.Presupuesto.Api\\Controllers\\ProgramacionActividadController.cs",
+              "RelativeToolTip": "Mre.OTI.Presupuesto.Api\\Controllers\\ProgramacionActividadController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAH0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T00:00:24.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
