@@ -7,13 +7,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.Cmn.Command
     {
         public int idProgramacionRecurso { get; set; }
         public int idProgramacionTareas { get; set; }
-        public int idAnio { get; set; }
         public int idActividadOperativa { get; set; }
-        public int idTarea { get; set; }
-        public int? idUnidadMedida { get; set; }
-        public bool? representativa { get; set; }
-        public int? idFuenteFinanciamiento { get; set; }
-        public int? idUbigeo { get; set; }
         public int? tipoUbigeo { get; set; }
 
         // Montos mensuales
