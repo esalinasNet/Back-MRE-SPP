@@ -31,12 +31,12 @@ namespace Mre.OTI.Presupuesto.Application.Features.UsuarioRol.Command
             _IUnitOfWork.BeginTransaction();
             try
             {
-               // await ValidateGlobalBase.Autorizacion(request.usuarioCreacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> {
-               //    VariablesGlobales.TablaRol.ANALISTA_OGTH
-               //});
+                await ValidateGlobalBase.Autorizacion(request.usuarioCreacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> {
+                 VariablesGlobales.TablaRol.ANALISTA_OGTH
+                });
+
                 if (request.idRol == 0) throw new MreException(Constantes.MensajesError.EX_USUARIOROL_INSERT_IDROL_REQUIRED);
                 if (request.idUsuario == 0) throw new MreException(Constantes.MensajesError.EX_USUARIOROL_INSERT_IDUSUARIO_REQUIRED);
-
 
                 var valIdRol = await _IUsuarioRolRepository.ObtenerUsuarioRolVal(new ObtenerUsuarioRolValRequestDTO()
                 {
@@ -81,7 +81,8 @@ namespace Mre.OTI.Presupuesto.Application.Features.UsuarioRol.Command
                //     }
                // }
 
-                //_IUnitOfWork.Commit();
+                _IUnitOfWork.Commit();
+
                 return new CommandResponseViewModel
                 {
                     message = result > 0 ? Constantes.MensajesOK.M01_USUARIOROL_INSERT_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
