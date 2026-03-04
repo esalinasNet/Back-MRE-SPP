@@ -30,12 +30,12 @@ namespace Mre.OTI.Presupuesto.Application.Features.Cmn.Command
             try
             {
                 await ValidateGlobalBase.Autorizacion(request.usuarioCreacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> {
-                    VariablesGlobales.TablaRol.ANALISTA_OGTH
-                });
+            VariablesGlobales.TablaRol.ANALISTA_OGTH
+        });
 
                 if (request.idProgramacionRecurso == 0) throw new MreException("Debe seleccionar un recurso");
                 if (request.idProgramacionTareas == 0) throw new MreException("Debe seleccionar una tarea");
-                if (request.idAnio == 0) throw new MreException("Debe seleccionar un año");
+                if (request.idActividadOperativa == 0) throw new MreException("Debe seleccionar una actividad operativa");
                 if (request.idEstado == 0) throw new MreException("Debe seleccionar un estado");
 
                 var entity = CmnMap.MaptoEntity(request);
