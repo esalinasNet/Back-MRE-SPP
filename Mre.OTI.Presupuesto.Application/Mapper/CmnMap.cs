@@ -96,13 +96,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             {
                 ID_PROGRAMACION_RECURSO = request.idProgramacionRecurso,
                 ID_PROGRAMACION_TAREAS = request.idProgramacionTareas,
-                ID_ANIO = request.idAnio,
                 ID_ACTIVIDAD_OPERATIVA = request.idActividadOperativa,
-                ID_TAREA = request.idTarea,
-                ID_UNIDAD_MEDIDA = request.idUnidadMedida,
-                REPRESENTATIVA = request.representativa,
-                ID_FUENTE_FINANCIAMIENTO = request.idFuenteFinanciamiento,
-                ID_UBIGEO = request.idUbigeo,
                 TIPO_UBIGEO = request.tipoUbigeo,
 
                 // Montos mensuales

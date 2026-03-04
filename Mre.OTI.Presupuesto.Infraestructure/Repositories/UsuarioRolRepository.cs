@@ -20,8 +20,8 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
         public async Task<int> Guardar(UsuarioRol parametro)
         {
-            //var sql = @"SC_SEG.MEOSI_USUARIO_ROL";
-            var sql = @"SC_SPP.MEOSI_USUARIO_ROL";
+            var sql = @"SC_SEG.MEOSI_USUARIO_ROL";
+            
             int result = 0;
 
             //DBConnection.BeginTransaction();

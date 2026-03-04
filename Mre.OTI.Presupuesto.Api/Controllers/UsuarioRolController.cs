@@ -41,7 +41,7 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
         }
         [HttpPost]
         [Route("guardar")]
-        public async Task<IActionResult> Guardar( AgregarUsuarioRolViewModel request)
+        public async Task<IActionResult> guardar( AgregarUsuarioRolViewModel request)
         {
             request.usuarioCreacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
             request.ipCreacion = HttpContext.Connection.RemoteIpAddress.ToString();
@@ -50,7 +50,7 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
         }
         [HttpPut]
         [Route("eliminar")]
-        public async Task<IActionResult> Eliminar(EliminarUsuarioRolViewModel request)
+        public async Task<IActionResult> eliminar(EliminarUsuarioRolViewModel request)
         {
             request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
             request.ipModificacion = HttpContext.Connection.RemoteIpAddress.ToString();
@@ -59,7 +59,7 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
         }
         [HttpPut]
         [Route("actualizar")]
-        public async Task<IActionResult> Actualizar(ActualizarUsuarioRolViewModel request)
+        public async Task<IActionResult> actualizar(ActualizarUsuarioRolViewModel request)
         {
             request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
             request.ipModificacion = HttpContext.Connection.RemoteIpAddress.ToString();
