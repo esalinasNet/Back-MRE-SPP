@@ -33,8 +33,9 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             parameters.Add("@CODIGO_ACCIONES", parametro.CODIGO_ACCONES, DbType.String);
             parameters.Add("@DESCRIPCION_ACCIONES", parametro.DESCRIPCION_ACCIONES, DbType.String);
 
-            parameters.Add("@CODIGO_OBJETIVOS", parametro.CODIGO_OBJETIVOS, DbType.String);
-            parameters.Add("@DESCRIPCION_OBJETIVOS", parametro.DESCRIPCION_OBJETIVOS, DbType.String);
+            parameters.Add("@ID_OBJETIVOS", parametro.ID_OBJETIVOS, DbType.Int32);
+            //parameters.Add("@CODIGO_OBJETIVOS", parametro.CODIGO_OBJETIVOS, DbType.String);
+            //parameters.Add("@DESCRIPCION_OBJETIVOS", parametro.DESCRIPCION_OBJETIVOS, DbType.String);
 
             parameters.Add("@ID_ESTADO", parametro.ID_ESTADO, DbType.Int32);
             parameters.Add("@ACTIVO", parametro.ACTIVO, DbType.Int32);
@@ -95,8 +96,9 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             parameters.Add("@CODIGO_ACCIONES", parametro.CODIGO_ACCONES, DbType.String);
             parameters.Add("@DESCRIPCION_ACCIONES", parametro.DESCRIPCION_ACCIONES, DbType.String);
 
-            parameters.Add("@CODIGO_OBJETIVOS", parametro.CODIGO_OBJETIVOS, DbType.String);
-            parameters.Add("@DESCRIPCION_OBJETIVOS", parametro.DESCRIPCION_OBJETIVOS, DbType.String);
+            parameters.Add("@ID_OBJETIVOS", parametro.ID_OBJETIVOS, DbType.Int32);
+            //parameters.Add("@CODIGO_OBJETIVOS", parametro.CODIGO_OBJETIVOS, DbType.String);
+            //parameters.Add("@DESCRIPCION_OBJETIVOS", parametro.DESCRIPCION_OBJETIVOS, DbType.String);
 
             parameters.Add("@ID_ESTADO", parametro.ID_ESTADO, DbType.Int32);
 
@@ -104,9 +106,7 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             parameters.Add("@USUARIO_CREACION", parametro.usuarioCreacion, DbType.String);
             parameters.Add("@IP_CREACION", parametro.ipCreacion, DbType.String);
 
-
             var identity = await DBConnection.Connection.ExecuteScalarAsync(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
-
 
             if (identity != null)
             {

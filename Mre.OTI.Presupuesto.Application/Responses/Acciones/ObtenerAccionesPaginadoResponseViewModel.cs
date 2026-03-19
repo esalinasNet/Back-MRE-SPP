@@ -18,13 +18,16 @@ namespace Mre.OTI.Presupuesto.Application.Responses.Acciones
         public string codigoAcciones { get; set; }
         public string descripcionAcciones { get; set; }
 
+        public int idObjetivos { get; set; }
         public string codigoObjetivos { get; set; }
         public string descripcionObjetivos { get; set; }
 
         public int idEstado { get; set; }
         public int estado { get; set; }
         public string estadoDescripcion { get; set; }
+
         public bool? activo { get; set; }
+
         public int draw { get; set; }
 
         public int registro { get; set; }

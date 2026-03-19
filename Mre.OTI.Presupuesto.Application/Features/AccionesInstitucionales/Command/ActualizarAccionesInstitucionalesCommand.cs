@@ -40,7 +40,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AccionesInstitucionales.Comma
                 await ValidateGlobalBase.Autorizacion(request.usuarioModificacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> { VariablesGlobales.TablaRol.ANALISTA_OGTH });
                                 
                 //hay que validar como esta en PersonaRepository.
-                if (string.IsNullOrEmpty(request.descripcionObjetivos)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_INSTITUCIONALES_DESCRIPCION_REQUIRED);
+                if (string.IsNullOrEmpty(request.descripcionAcciones)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_INSTITUCIONALES_DESCRIPCION_REQUIRED);
 
                 var entity = AccionesInstitucionalesMap.MaptoEntity(request);
                 var idUsuarioModificacion = EncryptionPassportHandler.Decrypt(request.usuarioModificacion, Constantes.SISTEMA.KEY_ENCRYPT);

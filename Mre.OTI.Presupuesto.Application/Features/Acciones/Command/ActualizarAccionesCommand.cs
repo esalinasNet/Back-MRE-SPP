@@ -34,7 +34,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.Acciones.Command
                 await ValidateGlobalBase.Autorizacion(request.usuarioModificacion, _IUsuarioRolRepository, new List<VariablesGlobales.TablaRol> { VariablesGlobales.TablaRol.ANALISTA_OGTH });
 
                 //hay que validar como esta en PersonaRepository.
-                if (string.IsNullOrEmpty(request.descripcionObjetivos)) throw new MreException(Constantes.MensajesError.EX_DIVISIONFUNCIONAL_DESCRIPCION_REQUIRED);
+                if (string.IsNullOrEmpty(request.descripcionAcciones)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_DESCRIPCION_REQUIRED);
 
                 var entity = AccionesMap.MaptoEntity(request);
 
@@ -45,7 +45,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.Acciones.Command
 
                 return new CommandResponseViewModel
                 {
-                    message = result > 0 ? Constantes.MensajesOK.M01_DIVISION_FUNCIONAL_UPDATE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
+                    message = result > 0 ? Constantes.MensajesOK.M01_ACCIONES_UPDATE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
                     result = result
                 };
             }

@@ -30,12 +30,25 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
 
 
         [HttpPost]
+        //[Route("autenticar")]
         public async Task<IActionResult> autenticar(AutenticarUsuarioViewModel request)
         {
-            request.ipAcceso = HttpContext.Connection.RemoteIpAddress.ToString();
-            request.dispositivo = Request.Headers.ContainsKey("User-Agent") ? Request.Headers.GetOrDefault("User-Agent").ToString() : string.Empty;
-            var result = await _IMediator.Send(request);
-            return Ok(result);
+            try
+            {
+                request.ipAcceso = HttpContext.Connection.RemoteIpAddress.ToString();
+                request.dispositivo = Request.Headers.ContainsKey("User-Agent") ? Request.Headers.GetOrDefault("User-Agent").ToString() : string.Empty;
+                var result = await _IMediator.Send(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    error = ex.Message,
+                    inner = ex.InnerException?.Message,
+                    stack = ex.StackTrace
+                });
+            }
 
         }
  

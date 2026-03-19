@@ -34,7 +34,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AccionesInstitucionales.Comma
             });
 
             if (request.idAnio == 0) throw new MreException(Constantes.MensajesError.EX_ACCIONES_INSTITUCIONALES_AÑO_REQUIRED);
-            if (string.IsNullOrEmpty(request.descripcionObjetivos)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_INSTITUCIONALES_DESCRIPCION_REQUIRED);
+            if (string.IsNullOrEmpty(request.descripcionAcciones)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_INSTITUCIONALES_DESCRIPCION_REQUIRED);
 
             // Crear el DTO con los valores del request
             var requestDto = new ObtenerCodigoAccionesRequestDTO
