@@ -19,15 +19,15 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             {
                 idAcciones = item.ID_ACCIONES,
                 idAnio = item.ID_ANIO,
-
+                                
                 codigoAcciones = item.CODIGO_ACCONES,
                 descripcionAcciones = item.DESCRIPCION_ACCIONES,
 
+                idObjetivos = item.ID_OBJETIVOS,
                 codigoObjetivos = item.CODIGO_OBJETIVOS,
                 descripcionObjetivos = item.DESCRIPCION_OBJETIVOS,
 
                 nroCentroCostos = item.NRO_CENTRO_COSTOS,
-
 
                 idEstado = item.ID_ESTADO,
                 registro = item.registro,
@@ -44,7 +44,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
 
                 codigoAcciones = item.codigoAcciones,
                 descripcionAcciones = item.descripcionAcciones,
-
+                                
                 codigoObjetivos = item.codigoObjetivos,
 
                 estadoDescripcion = item.estadoDescripcion,
@@ -71,6 +71,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 CODIGO_ACCONES = request.codigoAcciones,
                 DESCRIPCION_ACCIONES = request.descripcionAcciones,
 
+                ID_OBJETIVOS = request.idObjetivos,
                 CODIGO_OBJETIVOS = request.codigoObjetivos,
                 DESCRIPCION_OBJETIVOS = request.descripcionObjetivos,
 
@@ -94,6 +95,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 CODIGO_ACCONES = request.codigoAcciones,
                 DESCRIPCION_ACCIONES = request.descripcionAcciones,
 
+                ID_OBJETIVOS = request.idObjetivos,
                 CODIGO_OBJETIVOS = request.codigoObjetivos,
                 DESCRIPCION_OBJETIVOS = request.descripcionObjetivos,
 
@@ -157,6 +159,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 codigoAcciones = item.codigoAcciones,
                 descripcionAcciones = item.descripcionAcciones,
 
+                idObjetivos = item.idObjetivos,
                 codigoObjetivos = item.codigoObjetivos,
                 descripcionObjetivos = item.descripcionObjetivos,
 

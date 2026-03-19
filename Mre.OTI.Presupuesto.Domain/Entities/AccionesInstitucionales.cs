@@ -13,6 +13,7 @@ namespace Mre.OTI.Presupuesto.Domain.Entities
         public string CODIGO_ACCONES { get; set; }
         public string DESCRIPCION_ACCIONES { get; set; }
 
+        public int ID_OBJETIVOS { get; set; }
         public string CODIGO_OBJETIVOS { get; set; }
         public string DESCRIPCION_OBJETIVOS { get; set; }
 

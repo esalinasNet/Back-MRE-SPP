@@ -13,8 +13,11 @@ namespace Mre.OTI.Presupuesto.Application.DTO.AccionesInstitucionales
         public string codigoAcciones { get; set; }
         public string descripcionAcciones { get; set; }
 
+        public int idObjetivos { get; set; }
         public string codigoObjetivos { get; set; }
         public string descripcionObjetivos { get; set; }
+
+        public int nroCentroCostos { get; set; }
 
         public int idEstado { get; set; }
         public int estado { get; set; }

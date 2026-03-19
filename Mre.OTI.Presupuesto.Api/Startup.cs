@@ -27,11 +27,21 @@ namespace Mre.OTI.Presupuesto.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // services.AddSingleton<ApiKeyService>(); // Registramos nuestro servicio
+            //esv
+            var urlAceptadas = Configuration.GetSection("AllowedOrigins").Value.Split(",");
 
-          
-           // services.AddSingleton<ApiKeyService>(); // Registramos nuestro servicio
-      
-            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder
+                        .WithOrigins(urlAceptadas)
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .WithExposedHeaders("X-Token-Expired"));
+            });
+            //esv
+
             services.AddControllers();
             services.AddSwaggerGen(options =>
             {
@@ -99,7 +109,8 @@ namespace Mre.OTI.Presupuesto.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            var urlAceptadas = Configuration.GetSection("AllowedOrigins").Value.Split(",");
+            //esv
+            /*var urlAceptadas = Configuration.GetSection("AllowedOrigins").Value.Split(",");
             app.UseCors();
             app.UseCors(builder => builder
                  .WithOrigins(urlAceptadas)
@@ -107,7 +118,8 @@ namespace Mre.OTI.Presupuesto.Api
                  .AllowAnyHeader()
                  .WithExposedHeaders("X-Token-Expired")
 
-                 );
+                 );*/
+            //esv 
 
             if (env.IsDevelopment())
             {
@@ -122,6 +134,9 @@ namespace Mre.OTI.Presupuesto.Api
 
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");  //esv
+
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -134,16 +149,25 @@ namespace Mre.OTI.Presupuesto.Api
                 endpoints.MapControllers();
             });
 
-            if (env.IsDevelopment())
+            /*if (env.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("v1/swagger.json", "OTI");
                 });
-            }
+            }*/
 
-             
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "API PRESUPUESTO V1");                
+
+            });
+
+
+
         }
     }
 }

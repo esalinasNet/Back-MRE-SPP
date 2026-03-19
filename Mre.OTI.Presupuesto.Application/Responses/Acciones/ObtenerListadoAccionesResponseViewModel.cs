@@ -23,3 +23,4 @@ namespace Mre.OTI.Presupuesto.Application.Responses.Acciones
         public bool? activo { get; set; }
     }
 }
+
