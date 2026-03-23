@@ -3,11 +3,11 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iis": {
-      "applicationUrl": "http://localhost/Mre.OTI.Passport.Api",
+      "applicationUrl": "http://localhost/Mre.OTI.Presupuesto.Api",  
       "sslPort": 0
     },
     "iisExpress": {
-      "applicationUrl": "http://localhost:2081",
+      "applicationUrl": "http://localhost:2023", //2081
       "sslPort": 0
     }
   },
@@ -28,7 +28,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:2081"
+      "applicationUrl": "http://localhost:2023" //2081
     }
   }
 }
