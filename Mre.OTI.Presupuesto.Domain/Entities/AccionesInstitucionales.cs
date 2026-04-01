@@ -17,9 +17,11 @@ namespace Mre.OTI.Presupuesto.Domain.Entities
         public string CODIGO_OBJETIVOS { get; set; }
         public string DESCRIPCION_OBJETIVOS { get; set; }
 
-        public int NRO_CENTRO_COSTOS { get; set; }
-
         public List<int> ID_CENTRO_COSTOS { get; set; }
+        public int NRO_CENTRO_COSTOS { get; set; }
+              
+        public List<int> ID_PRESUPUESTAL { get; set; }
+        public int NRO_CATEGORIA_PRESUPUESTAL { get; set; }
 
         public int ID_ESTADO { get; set; }
         public bool? ACTIVO { get; set; }

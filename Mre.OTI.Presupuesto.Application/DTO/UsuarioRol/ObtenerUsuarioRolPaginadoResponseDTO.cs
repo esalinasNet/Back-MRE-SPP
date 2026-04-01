@@ -12,6 +12,8 @@ namespace Mre.OTI.Presupuesto.Application.DTO.UsuarioRol
         public string usuario { get; set; }
         
         public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
 
         public int accesoPrivado { get; set; }
 

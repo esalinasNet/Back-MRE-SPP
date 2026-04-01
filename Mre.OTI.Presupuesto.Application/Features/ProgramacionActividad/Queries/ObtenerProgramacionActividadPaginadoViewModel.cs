@@ -13,9 +13,9 @@ namespace Mre.OTI.Presupuesto.Application.Features.ProgramacionActividad.Queries
 
         public string codigoProgramacion { get; set; }
         public int? idCentroCostos { get; set; }
-        public string denominacion { get; set; }
-        public string descripcion { get; set; }
-        public string observacion { get; set; }
+        public string centroCostos { get; set; }
+
+        public string denominacion { get; set; }                
 
         public string estadoDescripcion { get; set; }
         public bool? activo { get; set; }

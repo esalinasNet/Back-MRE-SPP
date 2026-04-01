@@ -10,6 +10,7 @@ using Mre.OTI.Presupuesto.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static Mre.OTI.Presupuesto.Application.Util.VariablesGlobales;
 
 namespace Mre.OTI.Presupuesto.Application.Mapper
 {
@@ -19,8 +20,8 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
         {
             return new ObtenerAeiCategoriaPresupuestalRequestDTO()
             {
-                idAnio = item.idAnio,
-                idPresupuestal = item.idPresupuestal
+                idAnio = item.idAnio,                
+                idAcciones = item.idAcciones
             };
         }
 
@@ -30,21 +31,25 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             {
                 idAeiPresupuestal = item.idAeiPresupuestal,
                 idAnio = item.idAnio,
+                anio = item.anio,
                 idPresupuestal = item.idPresupuestal,
-                idAcciones = item.idAcciones, 
+                codigoPresupuestal = item.codigoPresupuestal,
+                descripcionPresupuestal = item.descripcionPresupuestal,
+                idAcciones = item.idAcciones,
+                codigoAcciones = item.codigoAcciones,
+                descripcionAcciones = item.descripcionAcciones,
                 activo = item.activo
             };
         }
-
 
         public static AeiCategoriaPresupuestal MaptoEntity(AgregarAeiCategoriaPresupuestalViewModel request)
         {
             return new AeiCategoriaPresupuestal()
             {
                 ID_ANIO = request.idAnio,
-                ID_PRESUPUESTAL = request.idPresupuestal,
-
                 ID_ACCIONES = request.idAcciones,
+
+                ID_PRESUPUESTAL = request.idPresupuestal,
 
                 ipCreacion = request.ipCreacion,
                 usuarioCreacion = request.usuarioCreacion,
@@ -57,11 +62,13 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             return new AeiCategoriaPresupuestal()
             {
                 ID_ANIO = request.idAnio,
+                ID_ACCIONES = request.idAcciones,
                 ID_PRESUPUESTAL = request.idPresupuestal,
                 ipModificacion = request.ipModificacion,
                 usuarioModificacion = request.usuarioModificacion,
                 fechaModificacion = DateTime.Now
             };
         }
+        
     }
 }

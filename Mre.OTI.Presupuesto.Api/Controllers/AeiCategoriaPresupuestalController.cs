@@ -8,6 +8,7 @@ using Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Command;
 using Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Queries;
 using Mre.OTI.Presupuesto.Application.Features.AeiCentroCostos.Command;
 using Mre.OTI.Presupuesto.Application.Features.AeiCentroCostos.Queries;
+using Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Command;
 using Mre.OTI.Presupuesto.Application.Util;
 using System.Threading.Tasks;
 
@@ -54,5 +55,6 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
             var result = await _IMediator.Send(request);
             return Ok(result);
         }
+       
     }
 }

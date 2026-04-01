@@ -2,6 +2,7 @@
 using MediatR;
 using Mre.OTI.Presupuesto.Application.Exceptions;
 using Mre.OTI.Presupuesto.Application.Features.EspecificaGasto.Queries;
+using Mre.OTI.Presupuesto.Application.Mapper;
 using Mre.OTI.Presupuesto.Application.Repositories;
 using Mre.OTI.Presupuesto.Application.Responses.CentroCostos;
 using Mre.OTI.Presupuesto.Application.Responses.EspecificaGasto;
@@ -36,9 +37,11 @@ namespace Mre.OTI.Presupuesto.Application.Features.CentroCostos.Queries
                    VariablesGlobales.TablaRol.ANALISTA_OGTH
                });
 
-            if (request.centroCostos == "") throw new MreException("ingrese Centro de Costo");
+            var dto = CentroCostosMap.MaptoDTOCentroCostos(request);
 
-            var result = await _ICentroCostosRepository.ObtenerCodigoCostos(request.centroCostos);
+            var result = await _ICentroCostosRepository.ObtenerCodigoCostos(dto);
+
+            if (request.centroCostos == "") throw new MreException("ingrese Centro de Costo");
 
             return _mapper.Map<ObtenerCodigoCostosResponseViewModel>(result);
         }

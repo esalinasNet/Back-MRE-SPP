@@ -21,15 +21,16 @@ namespace Mre.OTI.Presupuesto.Application.Responses.Autentication
         public string refreshToken { get; set; }
         public string idRol { get; set; }
         public string idSistema { get; set; }
-
+        //
+        public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
 
         public IEnumerable<RolResponse> roles { get; set; }
 
     }
     public class RolResponse
     {
- 
-
         public string idUsuarioRol { get; set; }
         public int codigoRol { get; set; }
         public string idRol { get; set; }
@@ -37,5 +38,9 @@ namespace Mre.OTI.Presupuesto.Application.Responses.Autentication
         public string idSistema { get; set; }
         public string descripcionRol { get; set; }
         public string nombreRol { get; set; }
+
+        public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
     }
 }

@@ -75,7 +75,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idAcciones = item.idAcciones
             };
         }
-
+               
         public static ObtenerAeiCentroCostosResponseViewModel MaptoViewModelAeiCostos(dynamic item)
         {
             return new ObtenerAeiCentroCostosResponseViewModel()
@@ -83,6 +83,27 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idAeiCostos = item.idAeiCostos,
                 idAnio = item.idAnio,
                 idAcciones = item.idAcciones,                
+                idCentroCostos = item.idCentroCostos,
+                activo = item.activo
+            };
+        }
+
+        public static ObtenerAeiIdCentroCostosRequestDTO MaptoCCDTOIdCostos(ObtenerAeiIdCentroCostosViewModel item)
+        {
+            return new ObtenerAeiIdCentroCostosRequestDTO()
+            {
+                idAnio = item.idAnio,
+                idCentroCostos = item.idCentroCostos
+            };
+        }
+
+        public static ObtenerAeiIdCentroCostosResponseViewModel MaptoViewModelAeiIdCostos(dynamic item)
+        {
+            return new ObtenerAeiIdCentroCostosResponseViewModel()
+            {
+                idAeiCostos = item.idAeiCostos,
+                idAnio = item.idAnio,
+                idAcciones = item.idAcciones,
                 idCentroCostos = item.idCentroCostos,
                 activo = item.activo
             };

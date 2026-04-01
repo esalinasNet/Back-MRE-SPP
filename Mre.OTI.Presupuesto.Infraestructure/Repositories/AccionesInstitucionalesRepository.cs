@@ -48,6 +48,28 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             return result;
         }
 
+        public async Task<int> ActualizarAEICategoria(AccionesInstitucionales parametro)
+        {
+            var sql = @"SC_SPP.MAESU_ACCIONES_INSTITUCIONALES_AEICATEGORIA";
+            int result = 0;
+
+            var parameters = new DynamicParameters();
+            parameters.Add("@ID_ACCIONES", parametro.ID_ACCIONES, DbType.Int32);
+            parameters.Add("@ID_ANIO", parametro.ID_ANIO, DbType.Int32);
+
+            parameters.Add("@NRO_CATEGORIA_PRESUPUESTAL", parametro.NRO_CATEGORIA_PRESUPUESTAL, DbType.Int32);
+
+            parameters.Add("@ID_ESTADO", parametro.ID_ESTADO, DbType.Int32);
+            parameters.Add("@ACTIVO", parametro.ACTIVO, DbType.Int32);
+
+            parameters.Add("@USUARIO_MODIFICACION", parametro.usuarioModificacion, DbType.String);
+            parameters.Add("@IP_MODIFICACION", parametro.ipModificacion, DbType.String);
+
+            result = await DBConnection.Connection.ExecuteAsync(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
+
+            return result;
+        }
+
         public async Task<int> ActualizarAEICostos(AccionesInstitucionales parametro)
         {
             var sql = @"SC_SPP.MAESU_ACCIONES_INSTITUCIONALES_AEICOSTOS";

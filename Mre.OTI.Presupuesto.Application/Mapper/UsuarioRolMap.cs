@@ -50,6 +50,8 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idUsuario = item.idUsuario,
                 codigoRol=item.codigoRol,
                 idCentroCostos = item.idCentroCostos,
+                centroCostos = item.centroCostos,
+                descripcionCentroCostos = item.descripcionCentroCostos,
                 idUsuarioRol =item.idUsuarioRol
             };
         }

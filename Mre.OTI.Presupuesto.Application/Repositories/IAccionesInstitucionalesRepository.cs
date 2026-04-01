@@ -21,6 +21,8 @@ namespace Mre.OTI.Presupuesto.Application.Repositories
 
         Task<int> ActualizarAEICostos(AccionesInstitucionales parametro);
 
+        Task<int> ActualizarAEICategoria(AccionesInstitucionales parametro);
+
         Task<ObtenerCodigoAccionesResponseDTO> ObtenerCodigoAcciones(ObtenerCodigoAccionesRequestDTO request);
 
         Task<IEnumerable<ObtenerListadoAccionesInstitucionalesResponseDTO>> ObtenerListadoAcciones(ObtenerListadoAccionesInstitucionalesRequestDTO request);

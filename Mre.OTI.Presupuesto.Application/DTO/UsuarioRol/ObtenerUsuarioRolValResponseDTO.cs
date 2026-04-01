@@ -9,6 +9,8 @@
         public int idUsuario { get; set; }
 
         public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
 
         public bool? accesoPrivado { get; set; }
 

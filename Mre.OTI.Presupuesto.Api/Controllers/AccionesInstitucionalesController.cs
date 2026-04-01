@@ -72,16 +72,6 @@ namespace Mre.OTI.Presupuesto.Api.Controllers  // institucionales  Institucional
             return Ok(result);
         }
 
-        [HttpPut]                                         
-        [Route("actualizaraeicostos")]                                      
-        public async Task<IActionResult> ActualizarAEICostos([FromBody] ActualizarAccionesAeiCentroCostosViewModel request)
-        {
-            request.ipCreacion = HttpContext.Connection.RemoteIpAddress.ToString();
-            request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
-            var result = await _IMediator.Send(request);
-            return Ok(result);
-        }
-
         [HttpGet]
         [Route("obtenercodigoacciones")]
         public async Task<IActionResult> ObtenerCodigoAcciones([FromQuery] ObtenerCodigoAccionesViewModel request)
@@ -98,6 +88,27 @@ namespace Mre.OTI.Presupuesto.Api.Controllers  // institucionales  Institucional
             request.usuarioConsulta = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ?
                     Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
 
+            var result = await _IMediator.Send(request);
+            return Ok(result);
+        }
+
+        //AEI
+        [HttpPut]
+        [Route("actualizaraeicostos")]
+        public async Task<IActionResult> ActualizarAEICostos([FromBody] ActualizarAccionesAeiCentroCostosViewModel request)
+        {
+            request.ipCreacion = HttpContext.Connection.RemoteIpAddress.ToString();
+            request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
+            var result = await _IMediator.Send(request);
+            return Ok(result);
+        }
+
+        [HttpPut]
+        [Route("actualizaraeicategoria")]
+        public async Task<IActionResult> ActualizarAEICategoria([FromBody] ActualizarAccionesAeiCategoriaPresupuestalViewModel request)
+        {
+            request.ipCreacion = HttpContext.Connection.RemoteIpAddress.ToString();
+            request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
             var result = await _IMediator.Send(request);
             return Ok(result);
         }

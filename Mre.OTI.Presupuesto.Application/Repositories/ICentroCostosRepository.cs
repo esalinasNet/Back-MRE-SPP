@@ -24,6 +24,6 @@ namespace Mre.OTI.Presupuesto.Application.Repositories
 
         Task<int> Eliminar(CentroCostos parametro);
 
-        Task<ObtenerCentroCostosResponseDTO> ObtenerCodigoCostos(string centroCostos);
+        Task<ObtenerCentroCostosResponseDTO> ObtenerCodigoCostos(ObtenerCodigoCostosRequestDTO request);
     }
 }

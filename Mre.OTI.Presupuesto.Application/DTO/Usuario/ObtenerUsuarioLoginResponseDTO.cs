@@ -8,9 +8,15 @@
         public string descripcionRol { get; set; }
         public string correo { get; set; }
         public string usuarioNT { get; set; }
+
+        public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
+
         public string claveNT { get; set; }
         public int codigoRol { get; set; }
         public string codigoSistema { get; set; }
+
 
     }
 
@@ -24,6 +30,10 @@
         public string descripcionRol { get; set; }
 
         public string correo { get; set; }
+
+        public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
 
         public string descripcionCentroCosto { get; set; }
 
