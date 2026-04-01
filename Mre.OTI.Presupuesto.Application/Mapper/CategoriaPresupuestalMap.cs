@@ -103,7 +103,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             };
         }
 
-        public static CategoriaPresupuestal MaptoEntity(ActualizarAeiCategoriaPresupuestalViewModel request)
+        public static CategoriaPresupuestal MaptoEntity(ActualizarCategoriaPresupuestalAeiViewModel request)
         {
             return new CategoriaPresupuestal()
             {

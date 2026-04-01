@@ -6,6 +6,7 @@ using Mre.OTI.Presupuesto.Application.DTO.Funcion;
 using Mre.OTI.Presupuesto.Application.DTO.TipoDeCambio;
 using Mre.OTI.Presupuesto.Application.Repositories;
 using Mre.OTI.Presupuesto.Domain.Entities;
+using Org.BouncyCastle.Asn1.Ocsp;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -124,12 +125,13 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             return result;
         }
 
-        public async Task<ObtenerCentroCostosResponseDTO> ObtenerCodigoCostos(string centroCostos)
+        public async Task<ObtenerCentroCostosResponseDTO> ObtenerCodigoCostos(ObtenerCodigoCostosRequestDTO request)
         {
             const string sql = @"SC_SPP.MAESS_OBTENER_CODIGOCOSTOS";
 
             var parameters = new DynamicParameters();
-            parameters.Add("@CENTRO_COSTOS", centroCostos, DbType.String);
+            parameters.Add("@ANIO", request.anio, DbType.Int32);
+            parameters.Add("@CENTRO_COSTOS", request.centroCostos, DbType.String);
 
             var result = await DBConnection.Connection.QueryAsync<ObtenerCentroCostosResponseDTO>(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
 

@@ -294,9 +294,8 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             parameters.Add("@ANIO", request.anio, DbType.Int32);
             parameters.Add("@CODIGO_PROGRAMACION", request.codigoProgramacion, DbType.String);
             parameters.Add("@ID_CENTRO_COSTOS", request.idCentroCostos, DbType.Int32);
+            parameters.Add("@CENTRO_COSTOS", request.centroCostos, DbType.String);
             parameters.Add("@DENOMINACION", request.denominacion, DbType.String);
-            parameters.Add("@DESCRIPCION", request.descripcion, DbType.String);
-
             parameters.Add("@ESTADO_DESCRIPCION", request.estadoDescripcion, DbType.String);
             parameters.Add("@INICIO_PAGINA", ((request.paginaActual - 1) * request.tamanioPagina), DbType.Int32);
             parameters.Add("@TAMANIO_PAGINA", request.tamanioPagina, DbType.Int32);

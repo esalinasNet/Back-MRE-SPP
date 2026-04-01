@@ -114,5 +114,18 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             return result;
         }
+
+        public async  Task<IEnumerable<ObtenerAeiIdCentroCostosResponseDTO>> ObtenerAeiIdCentroCostos(ObtenerAeiIdCentroCostosRequestDTO request)
+        {
+            const string sql = @"SC_SPP.MAESS_OBTENER_AEI_ID_CENTRO_COSTOS";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("@ID_ANIO", request.idAnio, DbType.Int32);
+            parameters.Add("@ID_CENTRO_COSTOS", request.idCentroCostos, DbType.Int32);
+
+            var result = await DBConnection.Connection.QueryAsync<ObtenerAeiIdCentroCostosResponseDTO>(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
+
+            return result.OrderBy(x => x.idCentroCostos).ThenBy(x => x.idCentroCostos);
+        }
     }
 }

@@ -43,7 +43,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Quer
 
                 var json = JsonSerializer.Serialize(result);
 
-                if (request.idPresupuestal == 0) throw new MreException("ingrese idPresupuestal");
+                if (request.idAcciones == 0) throw new MreException("ingrese idAcciones");
 
                 return result.Select(x => (ObtenerAeiCategoriaPresupuestalResponseViewModel)AeiCategoriaPresupuestalMap.MaptoViewModelAeiCostos(x));
 

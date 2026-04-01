@@ -8,8 +8,8 @@ namespace Mre.OTI.Presupuesto.Application.Features.CentroCostos.Queries
 {
     public class ObtenerCodigoCostosViewModel : IRequest<ObtenerCodigoCostosResponseViewModel>
     {
-
         public string usuarioConsulta { get; set; }
+        public int anio { get; set; }
         public string centroCostos { get; set; }
     }
 }

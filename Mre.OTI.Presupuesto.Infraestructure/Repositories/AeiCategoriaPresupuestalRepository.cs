@@ -69,7 +69,8 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             var parameters = new DynamicParameters();
             parameters.Add("@ID_ANIO", request.idAnio, DbType.Int32);
-            parameters.Add("@ID_PRESUPUESTAL", request.idPresupuestal, DbType.Int32);
+            //parameters.Add("@ID_PRESUPUESTAL", request.idPresupuestal, DbType.Int32);
+            parameters.Add("@ID_ACCIONES", request.idAcciones, DbType.Int32);
 
             var result = await DBConnection.Connection.QueryAsync<ObtenerAeiCategoriaPresupuestalResponseDTO>(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
 

@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Command;
 using Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Queries;
 using Mre.OTI.Presupuesto.Application.Features.AeiCentroCostos.Queries;
-using Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Command;
-using Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Queries;
 using Mre.OTI.Presupuesto.Application.Util;
 using System.Threading.Tasks;
 
@@ -68,7 +66,7 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
 
         [HttpPut]                                    
         [Route("actualizaraeicategoria")]
-        public async Task<IActionResult> ActualizarAEICategoria([FromBody] ActualizarAeiCategoriaPresupuestalViewModel request)
+        public async Task<IActionResult> ActualizarAEICategoria([FromBody] ActualizarCategoriaPresupuestalAeiViewModel request)
         {
             request.ipCreacion = HttpContext.Connection.RemoteIpAddress.ToString();
             request.usuarioModificacion = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;

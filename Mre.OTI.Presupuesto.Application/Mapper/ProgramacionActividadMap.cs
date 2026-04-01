@@ -273,9 +273,9 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
 
                 codigoProgramacion = item.codigoProgramacion,
                 idCentroCostos = item.idCentroCostos,
-                denominacion = item.denominacion,
-                descripcion = item.descripcion,
+                centroCostos = item.centroCostos,
 
+                denominacion = item.denominacion,                
                 estadoDescripcion = item.estadoDescripcion,
 
                 paginaActual = item.paginaActual,

@@ -42,7 +42,16 @@ namespace Mre.OTI.Presupuesto.Api.Controllers
             request.usuarioConsulta = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
             var result = await _IMediator.Send(request);
             return Ok(result);
-        }     
+        }
+
+        [HttpGet]
+        [Route("obteneraeiidcostos")]
+        public async Task<IActionResult> ObtenerAeiIdCentroCostos([FromQuery] ObtenerAeiIdCentroCostosViewModel request)
+        {
+            request.usuarioConsulta = Request.Headers.ContainsKey(Constantes.SISTEMA.VAR_AUDITORIA_HEADER) ? Request.Headers.GetOrDefault(Constantes.SISTEMA.VAR_AUDITORIA_HEADER).ToString() : Constantes.SISTEMA.VAR_VAL_ZERO_ENCRYPT;
+            var result = await _IMediator.Send(request);
+            return Ok(result);
+        }
 
         [HttpPost]
         [Route("guardar")]

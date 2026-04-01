@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mre.OTI.Presupuesto.Application.DTO.CentroCostos
 {
-    public class ObtenerListadoCentroCostosResponseDTO
+    public class ObtenerCodigoCostosResponseDTO
     {
         public int idCentroCostos { get; set; }
         public int idAnio { get; set; }

@@ -4,19 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mre.OTI.Presupuesto.Application.Features.CategoriaPresupuestal.Command
+namespace Mre.OTI.Presupuesto.Application.Features.AccionesInstitucionales.Command
 {
-    public class ActualizarAeiCategoriaPresupuestalViewModel : IRequest<CommandResponseViewModel>
-    {
-        public int idPresupuestal { get; set; }
+    public class ActualizarAccionesAeiCategoriaPresupuestalViewModel : IRequest<CommandResponseViewModel>
+    {        
+        public int idAcciones { get; set; }
         public int idAnio { get; set; }
         public int anio { get; set; }
 
-        public string codigoPresupuestal { get; set; }
-        public string descripcionPresupuestal { get; set; }
-
-        public List<int> idAcciones { get; set; }        
-        public int nroCodigoAcciones { get; set; }
+        public List<int> idPresupuestal { get; set; }
+        public int nroCategoriaPresupuestal { get; set; }
 
         public int idEstado { get; set; }
         public bool? activo { get; set; }

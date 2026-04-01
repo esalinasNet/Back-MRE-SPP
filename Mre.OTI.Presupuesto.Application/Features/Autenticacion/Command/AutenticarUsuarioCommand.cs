@@ -22,6 +22,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Org.BouncyCastle.Security.Certificates;
 using System.DirectoryServices;
+using Mre.OTI.Presupuesto.Domain.Entities;
 //using System.DirectoryServices;
 
 
@@ -68,9 +69,6 @@ namespace Mre.OTI.Presupuesto.Application.Features.Autenticacion.Command
                  ACA VALIDAR EL LOGIN CON EL ACTIVE DIRECTORY.
                 */
 
-
-
-
                 if (_LoginSettings.NTRequired)
                 {
                     DirectoryEntry objUser = null;
@@ -78,8 +76,6 @@ namespace Mre.OTI.Presupuesto.Application.Features.Autenticacion.Command
                     if (objUser == null) throw new MreException(Constantes.MensajesError.EX_LOGIN_USERNT_NOT_FOUND);
 
                 }
-
-
 
                 var resultLogin = await _IUsuarioRepository.ObtenerUsuarioLogin(new ObtenerUsuarioLoginRequestDTO
                 {
@@ -110,7 +106,11 @@ namespace Mre.OTI.Presupuesto.Application.Features.Autenticacion.Command
                     codigoRol = x.codigoRol,
                     idUsuarioRol = EncryptionPassportHandler.Encrypt(x.idUsuarioRol.ToString(), Constantes.SISTEMA.KEY_ENCRYPT),
                     idRol = UrlEncryptationSecurity.Encrypt(Convert.ToString(x.idRol)),
-                    idSistema = UrlEncryptationSecurity.Encrypt(x.codigoSistema)
+                    idSistema = UrlEncryptationSecurity.Encrypt(x.codigoSistema),
+                    //
+                    idCentroCostos = x.idCentroCostos,
+                    centroCostos = x.centroCostos,
+                    descripcionCentroCostos = x.descripcionCentroCostos
                 });
            
 
@@ -124,7 +124,11 @@ namespace Mre.OTI.Presupuesto.Application.Features.Autenticacion.Command
                     ipAcceso = request.ipAcceso,
                     idUsuarioRol = userLogged.idUsuarioRol,
                     idRol = UrlEncryptationSecurity.Encrypt(Convert.ToString(userLogged.idRol)),
-                    idSistema = UrlEncryptationSecurity.Encrypt(userLogged.codigoSistema)
+                    idSistema = UrlEncryptationSecurity.Encrypt(userLogged.codigoSistema),
+                    //
+                    idCentroCostos = userLogged.idCentroCostos,
+                    centroCostos = userLogged.centroCostos,
+                    descripcionCentroCostos = userLogged.descripcionCentroCostos
                 };
 
                 var claimns = new[]
@@ -167,7 +171,11 @@ namespace Mre.OTI.Presupuesto.Application.Features.Autenticacion.Command
                     isVerified = true,
                     message = Constantes.MensajesOK.M01_LOGIN_OK,
                     roles = roles,
-                    idSistema = usuario.idSistema
+                    idSistema = usuario.idSistema,
+
+                    idCentroCostos = usuario.idCentroCostos,
+                    centroCostos = usuario.centroCostos,
+                    descripcionCentroCostos = usuario.descripcionCentroCostos
                 };
 
                 var refreshToken = generateRefreshToken(usuario.ipAcceso);

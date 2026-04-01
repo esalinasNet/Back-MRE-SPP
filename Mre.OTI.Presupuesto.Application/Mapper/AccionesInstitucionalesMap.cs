@@ -1,6 +1,7 @@
 ﻿using Mre.OTI.Presupuesto.Application.DTO.AccionesInstitucionales;
 using Mre.OTI.Presupuesto.Application.Features.AccionesInstitucionales.Command;
 using Mre.OTI.Presupuesto.Application.Features.AccionesInstitucionales.Queries;
+using Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Command;
 using Mre.OTI.Presupuesto.Application.Responses.Acciones;
 using Mre.OTI.Presupuesto.Application.Responses.AccionesInstitucionales;
 using Mre.OTI.Presupuesto.Domain.Entities;
@@ -28,6 +29,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 descripcionObjetivos = item.DESCRIPCION_OBJETIVOS,
 
                 nroCentroCostos = item.NRO_CENTRO_COSTOS,
+                nroCategoriaPresupuestal = item.NRO_CATEGORIA_PRESUPUESTAL,
 
                 idEstado = item.ID_ESTADO,
                 registro = item.registro,
@@ -120,25 +122,6 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             };
         }
 
-        public static AccionesInstitucionales MaptoEntity(ActualizarAccionesAeiCentroCostosViewModel request)
-        {
-            return new AccionesInstitucionales()
-            {
-                ID_ACCIONES = request.idAcciones,
-                ID_ANIO = request.idAnio,
-
-                ID_CENTRO_COSTOS = request.idCentroCostos,
-                NRO_CENTRO_COSTOS = request.nroCentroCostos,
-
-                ID_ESTADO = request.idEstado,
-                ACTIVO = request.activo,
-
-                ipModificacion = request.ipModificacion,
-                usuarioModificacion = request.usuarioModificacion,
-                fechaModificacion = DateTime.Now
-            };
-        }
-
         public static ObtenerCodigoAccionesRequestDTO MaptoDTOCodigoAcciones(ObtenerCodigoAccionesViewModel item)
         {
             return new ObtenerCodigoAccionesRequestDTO()
@@ -178,5 +161,45 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idAnio = item.idAnio
             };
         }
+
+        //AEI
+        public static AccionesInstitucionales MaptoEntity(ActualizarAccionesAeiCentroCostosViewModel request)
+        {
+            return new AccionesInstitucionales()
+            {
+                ID_ACCIONES = request.idAcciones,
+                ID_ANIO = request.idAnio,
+
+                ID_CENTRO_COSTOS = request.idCentroCostos,
+                NRO_CENTRO_COSTOS = request.nroCentroCostos,
+
+                ID_ESTADO = request.idEstado,
+                ACTIVO = request.activo,
+
+                ipModificacion = request.ipModificacion,
+                usuarioModificacion = request.usuarioModificacion,
+                fechaModificacion = DateTime.Now
+            };
+        }
+
+        public static AccionesInstitucionales MaptoEntityCategoria(ActualizarAccionesAeiCategoriaPresupuestalViewModel request)
+        {
+            return new AccionesInstitucionales()
+            {
+                ID_ACCIONES = request.idAcciones,
+                ID_ANIO = request.idAnio,
+
+                ID_PRESUPUESTAL = request.idPresupuestal,
+                NRO_CATEGORIA_PRESUPUESTAL = request.nroCategoriaPresupuestal,
+
+                ID_ESTADO = request.idEstado,
+                ACTIVO = request.activo,
+
+                ipModificacion = request.ipModificacion,
+                usuarioModificacion = request.usuarioModificacion,
+                fechaModificacion = DateTime.Now
+            };
+        }
+
     }
 }

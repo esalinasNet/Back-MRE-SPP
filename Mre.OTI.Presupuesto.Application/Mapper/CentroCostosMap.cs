@@ -136,5 +136,14 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
             };
         }
 
+        public static ObtenerCodigoCostosRequestDTO MaptoDTOCentroCostos(ObtenerCodigoCostosViewModel item)
+        {
+            return new ObtenerCodigoCostosRequestDTO()
+            {
+                anio = item.anio,
+                centroCostos = item.centroCostos
+            };
+        }
+
     }
 }

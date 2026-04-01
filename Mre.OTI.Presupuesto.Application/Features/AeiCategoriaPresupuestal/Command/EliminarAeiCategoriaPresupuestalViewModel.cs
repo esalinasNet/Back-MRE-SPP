@@ -9,6 +9,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Comm
     public class EliminarAeiCategoriaPresupuestalViewModel : IRequest<CommandResponseViewModel>
     {
         public int idAnio { get; set; }
+        public int idAcciones { get; set; }
         public int idPresupuestal { get; set; }
         public string usuarioModificacion { get; set; }
         public string ipModificacion { get; set; }

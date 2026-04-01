@@ -10,10 +10,15 @@ namespace Mre.OTI.Presupuesto.Application.Features.CentroCostos.Command
     {
         public int idCentroCostos { get; set; }
         public int idAnio { get; set; }
-        public int idEjecutora { get; set; }        
+        public int anio { get; set; }
+
+        public int idEjecutora { get; set; }
+        public int ejecutora { get; set; }
+
         public string centroCostos { get; set; }
         public string descripcion { get; set; }
         public string centroCostosPadre { get; set; }
+
         public int idEstado { get; set; }
 
         public string usuarioCreacion { get; set; }

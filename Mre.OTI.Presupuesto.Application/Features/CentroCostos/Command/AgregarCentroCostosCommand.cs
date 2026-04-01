@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using Mre.OTI.Passport.Util.Encriptador;
+using Mre.OTI.Presupuesto.Application.DTO.CentroCostos;
 using Mre.OTI.Presupuesto.Application.Exceptions;
 using Mre.OTI.Presupuesto.Application.Features.Funcion.Command;
 using Mre.OTI.Presupuesto.Application.Mapper;
@@ -37,9 +38,16 @@ namespace Mre.OTI.Presupuesto.Application.Features.CentroCostos.Command
                 VariablesGlobales.TablaRol.ANALISTA_OGTH
             });
 
+            // Crear el DTO con los valores del request
+            var requestDto = new ObtenerCodigoCostosRequestDTO
+            {
+                anio = request.anio,
+                centroCostos = request.centroCostos
+            };
+
             //hay que validar como esta en PersonaRepository.
-            var valClasificador = await _ICentroCostosRepository.ObtenerCodigoCostos(request.centroCostos);
-            if (valClasificador != null) throw new MreException(Constantes.MensajesError.EX_CCOSTOS_CODIGO_COSTOS);
+            var valCodigo = await _ICentroCostosRepository.ObtenerCodigoCostos(requestDto); //request.centroCostos);
+            if (valCodigo != null) throw new MreException(Constantes.MensajesError.EX_CCOSTOS_CODIGO_COSTOS);
 
             if (string.IsNullOrEmpty(request.descripcion)) throw new MreException(Constantes.MensajesError.EX_CCOSTOS_DESCRIPCION_REQUIRED);
 

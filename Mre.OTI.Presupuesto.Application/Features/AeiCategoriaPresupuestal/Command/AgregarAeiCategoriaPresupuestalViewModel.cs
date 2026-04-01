@@ -9,9 +9,9 @@ namespace Mre.OTI.Presupuesto.Application.Features.AeiCategoriaPresupuestal.Comm
     public class AgregarAeiCategoriaPresupuestalViewModel : IRequest<CommandResponseViewModel>
     {
         public int idAnio { get; set; }
+        public int idAcciones { get; set; }
         public int idPresupuestal { get; set; }
-        public int idAcciones { get; set; }        
-
+        
         public string usuarioCreacion { get; set; }
         public string ipCreacion { get; set; }
     }

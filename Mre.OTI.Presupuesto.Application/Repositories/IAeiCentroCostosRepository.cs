@@ -16,6 +16,8 @@ namespace Mre.OTI.Presupuesto.Application.Repositories
 
         Task<IEnumerable<ObtenerAeiCentroCostosResponseDTO>> ObtenerAeiCentroCostos(ObtenerAeiCentroCostosRequestDTO request);
 
+        Task<IEnumerable<ObtenerAeiIdCentroCostosResponseDTO>> ObtenerAeiIdCentroCostos(ObtenerAeiIdCentroCostosRequestDTO request);
+
         Task<int> Guardar(AeiCentroCostos parametro);
 
         Task<int> Eliminar(AeiCentroCostos parametro);
