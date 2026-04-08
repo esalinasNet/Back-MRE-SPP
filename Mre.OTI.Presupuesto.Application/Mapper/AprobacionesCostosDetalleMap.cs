@@ -20,7 +20,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idPersona = item.ID_PERSONA,
                 //nombresApellidos = item.NO
 
-                //idCentroCostos = item.ID_CENTRO_COSTOS,
+                idCentroCostos = item.ID_CENTRO_COSTOS,
                 //centroCostos = item.
                 //descripcionCentroCostos = item.ID_ESPECIFICA,
 
@@ -66,7 +66,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 ID_APROBACIONES = request.idAprobaciones,
                 ID_PERSONA = request.idPersona,
 
-                //ID_CENTRO_COSTOS = request.idCentroCostos,
+                ID_CENTRO_COSTOS = request.idCentroCostos,
 
                 PUESTO_TRABAJO = request.puestoTrabajo,
 
@@ -89,7 +89,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 ID_APROBACIONES = request.idAprobaciones,
                 ID_PERSONA = request.idPersona,
 
-                //ID_CENTRO_COSTOS = request.idCentroCostos,
+                ID_CENTRO_COSTOS = request.idCentroCostos,
 
                 PUESTO_TRABAJO = request.puestoTrabajo,
 

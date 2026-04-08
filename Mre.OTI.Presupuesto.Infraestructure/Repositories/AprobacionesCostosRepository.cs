@@ -142,6 +142,7 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             var parameters = new DynamicParameters();
             parameters.Add("@ID_ANIO", request.idAnio, DbType.Int32);
+            parameters.Add("@ID_CENTRO_COSTOS", request.idCentroCostos, DbType.Int32);
 
             var result = await DBConnection.Connection.QueryAsync<ObtenerListadoAprobacionesCostosResponseDTO>(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
 

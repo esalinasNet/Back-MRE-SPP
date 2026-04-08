@@ -32,7 +32,7 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             parameters.Add("@ID_PERSONA", parametro.ID_PERSONA, DbType.Int32);
 
-            //parameters.Add("@ID_CENTRO_COSTOS", parametro.ID_CENTRO_COSTOS, DbType.Int32);
+            parameters.Add("@ID_CENTRO_COSTOS", parametro.ID_CENTRO_COSTOS, DbType.Int32);
 
             parameters.Add("@PUESTO_TRABAJO", parametro.PUESTO_TRABAJO, DbType.String);
 
@@ -101,7 +101,7 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             parameters.Add("@ID_PERSONA", parametro.ID_PERSONA, DbType.Int32);
 
-            //parameters.Add("@ID_CENTRO_COSTOS", parametro.ID_CENTRO_COSTOS, DbType.Int32);
+            parameters.Add("@ID_CENTRO_COSTOS", parametro.ID_CENTRO_COSTOS, DbType.Int32);
 
             parameters.Add("@PUESTO_TRABAJO", parametro.PUESTO_TRABAJO, DbType.String);
 

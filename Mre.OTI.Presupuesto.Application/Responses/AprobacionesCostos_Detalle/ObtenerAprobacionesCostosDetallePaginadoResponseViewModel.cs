@@ -17,9 +17,9 @@ namespace Mre.OTI.Presupuesto.Application.Responses.AprobacionesCostos_Detalle
 
         public string nombresApellidos { get; set; }
 
-        //public int idCentroCostos { get; set; }
-        //public string centroCostos { get; set; }
-        //public string descripcionCentroCostos { get; set; }
+        public int idCentroCostos { get; set; }
+        public string centroCostos { get; set; }
+        public string descripcionCentroCostos { get; set; }
 
         public string puestoTrabajo { get; set; }
 

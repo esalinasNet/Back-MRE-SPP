@@ -7,5 +7,7 @@ namespace Mre.OTI.Presupuesto.Application.DTO.AprobacionesCostos
     public class ObtenerListadoAprobacionesCostosRequestDTO
     {
         public int idAnio { get; set; }
+        public int idCentroCostos { get; set; }
+
     }
 }

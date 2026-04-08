@@ -51,6 +51,11 @@ namespace Mre.OTI.Presupuesto.Domain.Entities
         
         public bool? ACTIVO { get; set; }
 
+        public int ID_APROBACIONES { get; set; }
+        public int ID_CENTRO_COSTOS_DESTINO { get; set; }
+        public int ID_CENTRO_COSTOS_ORIGEN { get; set; }
+        public int ID_APROBACIONES_DETALLE { get; set; }
+
         public int registro { get; set; }
         public int totalRegistro { get; set; }
     }

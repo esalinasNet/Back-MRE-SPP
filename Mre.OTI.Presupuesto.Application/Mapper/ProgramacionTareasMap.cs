@@ -125,7 +125,7 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
         {
             return new ProgramacionTareas()
             {
-                ID_PROGRAMACION_ACTIVIDAD = request.idProgramacionTareas,
+                 ID_PROGRAMACION_TAREAS = request.idProgramacionTareas,
                 ipModificacion = request.ipModificacion,
                 usuarioModificacion = request.usuarioModificacion,
                 fechaModificacion = DateTime.Now

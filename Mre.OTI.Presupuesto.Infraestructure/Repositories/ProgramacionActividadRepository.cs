@@ -133,6 +133,26 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             result = await DBConnection.Connection.ExecuteAsync(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
 
+            if (result != null){
+
+                var sql2 = @"SC_SPP.MAESI_APROBACIONES_ACTIVIDADES";
+
+                var parameters2 = new DynamicParameters();
+                parameters2.Add("@ID_ANIO", parametro.ID_ANIO, DbType.Int32);
+                parameters2.Add("@ID_APROBACIONES", parametro.ID_APROBACIONES, DbType.Int32);
+                parameters2.Add("@ID_PROGRAMACION_ACTIVIDAD", parametro.ID_PROGRAMACION_ACTIVIDAD, DbType.Int32);
+                parameters2.Add("@ID_CENTRO_COSTOS_DESTINO", parametro.ID_CENTRO_COSTOS_DESTINO, DbType.Int32);
+                parameters2.Add("@ID_CENTRO_COSTOS_ORIGEN", parametro.ID_CENTRO_COSTOS_ORIGEN, DbType.Int32);
+                parameters2.Add("@ID_APROBACIONES_DETALLE", parametro.ID_APROBACIONES_DETALLE, DbType.Int32);
+                parameters2.Add("@OBSERVACION", parametro.OBSERVACION, DbType.String);
+                parameters2.Add("@ID_ESTADO", parametro.ID_ESTADO, DbType.Int32);
+
+                parameters2.Add("@FECHA_CREACION", parametro.fechaCreacion, DbType.DateTime);
+                parameters2.Add("@USUARIO_CREACION", parametro.usuarioCreacion, DbType.String);
+                parameters2.Add("@IP_CREACION", parametro.ipCreacion, DbType.String);
+
+                var result2 = await DBConnection.Connection.ExecuteAsync(sql2, parameters2, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
+            }
             return result;
         }
 

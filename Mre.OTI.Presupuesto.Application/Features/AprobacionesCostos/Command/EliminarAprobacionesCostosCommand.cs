@@ -33,7 +33,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Command
             VariablesGlobales.TablaRol.ANALISTA_OGTH
         });
 
-            if (request.idAprobaciones == 0) throw new MreException(Constantes.MensajesError.EX_ACCIONES_ELIMINAR_ID_REQUIRED);
+            if (request.idAprobaciones == 0) throw new MreException(Constantes.MensajesError.EX_APROBACIONES_ELIMINAR_ID_REQUIRED);
 
             var entity = AprobacionesCostosMap.MaptoEntity(request);
 
@@ -44,7 +44,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Command
 
             return new CommandResponseViewModel
             {
-                message = result > 0 ? Constantes.MensajesOK.M01_ACCIONES_DELETE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
+                message = result > 0 ? Constantes.MensajesOK.M01_APROBACIONES_DELETE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
                 result = result
             };
         }

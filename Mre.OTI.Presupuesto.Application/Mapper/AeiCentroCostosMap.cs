@@ -104,6 +104,12 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 idAeiCostos = item.idAeiCostos,
                 idAnio = item.idAnio,
                 idAcciones = item.idAcciones,
+                codigoAcciones = item.codigoAcciones,
+                descripcionAcciones = item.descripcionAcciones,
+
+                idObjetivos = item.idObjetivos,
+                codigoObjetivos = item.codigoObjetivos,
+                descripcionObjetivos = item.descripcionObjetivos,
                 idCentroCostos = item.idCentroCostos,
                 activo = item.activo
             };

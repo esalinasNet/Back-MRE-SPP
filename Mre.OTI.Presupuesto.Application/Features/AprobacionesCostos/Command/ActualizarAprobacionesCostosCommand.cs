@@ -44,7 +44,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Command
 
                 return new CommandResponseViewModel
                 {
-                    message = result > 0 ? Constantes.MensajesOK.M01_DIVISION_FUNCIONAL_UPDATE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
+                    message = result > 0 ? Constantes.MensajesOK.M01_APROBACIONES_UPDATE_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
                     result = result
                 };
             }

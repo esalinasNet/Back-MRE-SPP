@@ -121,15 +121,22 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
                 ID_PROGRAMACION_ACTIVIDAD = request.idProgramacionActividad,
                 ID_ANIO = request.idAnio,
                 
-                CODIGO_PROGRAMACION = request.codigoProgramacion,
-                
+                CODIGO_PROGRAMACION = request.codigoProgramacion,                
                 OBSERVACION = request.observacion,
-
                 ID_ESTADO = request.idEstado,
+
+                ID_APROBACIONES = request.idAprobaciones,
+                ID_CENTRO_COSTOS_DESTINO = request.idCentroCostosDestino,
+                ID_CENTRO_COSTOS_ORIGEN = request.idCentroCostosOrigen,
+                ID_APROBACIONES_DETALLE = request.idAprobacionesDetalle,
 
                 ipModificacion = request.ipModificacion,
                 usuarioModificacion = request.usuarioModificacion,
-                fechaModificacion = DateTime.Now
+                fechaModificacion = DateTime.Now,
+
+                ipCreacion = request.ipCreacion,
+                usuarioCreacion = request.usuarioCreacion,
+                fechaCreacion = DateTime.Now
             };
         }
 

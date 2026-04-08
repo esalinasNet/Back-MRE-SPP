@@ -85,7 +85,11 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
             parameters.Add("@META_FISICA", parametro.META_FISICA, DbType.Int32);
             parameters.Add("@META_FINANCIERA", parametro.META_FINANCIERA, DbType.Decimal);
             parameters.Add("@ID_ESTADO", parametro.ID_ESTADO, DbType.Int32);
-                        
+
+            parameters.Add("@FECHA_CREACION", parametro.fechaCreacion, DbType.DateTime);
+            parameters.Add("@USUARIO_CREACION", parametro.usuarioCreacion, DbType.String);
+            parameters.Add("@IP_CREACION", parametro.ipCreacion, DbType.String);
+
             var identity = await DBConnection.Connection.ExecuteScalarAsync(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
 
             if (identity != null)
@@ -102,6 +106,7 @@ namespace Mre.OTI.Presupuesto.Infraestructure.Repositories
 
             var parameters = new DynamicParameters();
             parameters.Add("@ANIO", request.anio, DbType.Int32);
+            parameters.Add("@ID_PROGRAMACION_ACTIVIDAD", request.idProgramacionActividad, DbType.Int32);
             parameters.Add("@CODIGO_TAREAS", request.codigoTareas, DbType.String);
 
             var result = await DBConnection.Connection.QueryAsync<ObtenerCodigoProgramacionTareasResponseDTO>(sql, parameters, DBConnection.Transaction, commandType: CommandType.StoredProcedure);
