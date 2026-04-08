@@ -17,8 +17,16 @@ namespace Mre.OTI.Presupuesto.Application.Features.ProgramacionActividad.Command
 
         public int idEstado { get; set; }
 
+        public int idAprobaciones { get; set; }
+        public int idCentroCostosDestino { get; set; }
+        public int idCentroCostosOrigen { get; set; }
+        public int idAprobacionesDetalle { get; set; }
+
         public DateTime? fechaModificacion { get; set; }
         public string usuarioModificacion { get; set; }
         public string ipModificacion { get; set; }
+
+        public string usuarioCreacion { get; set; }
+        public string ipCreacion { get; set; }
     }
 }

@@ -135,7 +135,8 @@ namespace Mre.OTI.Presupuesto.Application.Mapper
         {
             return new ObtenerListadoAprobacionesCostosRequestDTO()
             {
-                idAnio = item.idAnio
+                idAnio = item.idAnio,
+                idCentroCostos = item.idCentroCostos 
             };
         }
     }

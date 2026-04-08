@@ -33,7 +33,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Command
             VariablesGlobales.TablaRol.ANALISTA_OGTH
         });
 
-            if (request.idAnio == 0) throw new MreException(Constantes.MensajesError.EX_ACCIONES_AÑO_REQUIRED);
+            if (request.idAnio == 0) throw new MreException(Constantes.MensajesError.EX_APROBACIONES_AÑO_REQUIRED);
             //if (string.IsNullOrEmpty(request.descripcionCostos)) throw new MreException(Constantes.MensajesError.EX_ACCIONES_DESCRIPCION_REQUIRED);
 
             //// Crear el DTO con los valores del request
@@ -56,7 +56,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Command
 
             return new CommandResponseViewModel
             {
-                message = result > 0 ? Constantes.MensajesOK.M01_ACCIONES_INSERT_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
+                message = result > 0 ? Constantes.MensajesOK.M01_APROBACIONES_INSERT_OK : Constantes.MensajesError.EX_ERROR_GENERICO,
                 result = result
             };
         }

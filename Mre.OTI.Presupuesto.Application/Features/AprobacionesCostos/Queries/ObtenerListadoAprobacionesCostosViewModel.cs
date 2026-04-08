@@ -10,5 +10,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.AprobacionesCostos.Queries
     {
         public string usuarioConsulta { get; set; }
         public int idAnio { get; set; }
+        public int idCentroCostos { get; set; }
+
     }
 }

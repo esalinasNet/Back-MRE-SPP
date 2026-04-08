@@ -7,6 +7,7 @@ namespace Mre.OTI.Presupuesto.Application.DTO.ProgramacionTareas
     public class ObtenerCodigoProgramacionTareasRequestDTO
     {
         public int anio { get; set; }
+        public int idProgramacionActividad { get; set; }
         public string codigoTareas { get; set; }
     }
 }

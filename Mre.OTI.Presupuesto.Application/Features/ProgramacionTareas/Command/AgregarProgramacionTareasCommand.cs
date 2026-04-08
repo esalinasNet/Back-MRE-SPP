@@ -42,6 +42,7 @@ namespace Mre.OTI.Presupuesto.Application.Features.ProgramacionTareas.Command
             var requestDto = new ObtenerCodigoProgramacionTareasRequestDTO
             {
                 anio = request.anio,
+                idProgramacionActividad = request.idProgramacionActividad,
                 codigoTareas = request.codigoTareas
             };
 
